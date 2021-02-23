@@ -1,3 +1,8 @@
+DROP DATABASE IF EXISTS Libreria;
+CREATE DATABASE IF NOT EXISTS Libreria;
+
+USE Libreria;
+
 CREATE TABLE Direccion(
     id_direccion INT PRIMARY KEY NOT NULL,
     ciudad VARCHAR(100),

@@ -1,3 +1,8 @@
+DROP DATABASE IF EXISTS Libreria;
+CREATE DATABASE IF NOT EXISTS Libreria;
+
+USE Libreria;
+
 CREATE TABLE Miembro(
     id_miembro INT PRIMARY KEY NOT  NULL,
     id_dirección INT NOT NULL,
